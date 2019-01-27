@@ -1,0 +1,654 @@
+body{
+	margin:0;
+	font-family: 'Open Sans';
+	width: 100%;
+}
+
+ul{
+	border-bottom: 1px solid;
+	color: white;
+	margin-block-start:0;
+	margin-block-end:0;
+	padding-inline-start:0;
+}
+
+ul li{
+	list-style: none;
+	margin: 13px 15px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+header{
+	background: url('../images/bg-home.jpg'), linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+	background-blend-mode: overlay;
+	background-size: cover; 
+  	height: 100vh;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-white{
+	color: white;
+}
+
+.text-underline{
+	text-decoration:underline;
+}
+
+.container{
+	margin: 0 50px;
+}
+
+.content{
+	width: 100%;
+	height: 100%;
+}
+
+.flex-container{
+	display: flex;
+}
+
+.flex-right{
+	display: flex;
+	justify-content: flex-end;
+	margin-left: auto;
+}
+
+.button{
+	margin-top: 2px;
+	margin-bottom: 3px;
+	border:1px solid;
+	border-radius:10px;
+	background-color: orange;
+}
+
+.button:hover{
+	border: 1px solid;
+	border-radius: 15px;
+	background-color: white;
+	color: orange;
+}
+
+.button:hover a{
+	color: orange;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.flex-column-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.flex-column-center > div{
+	margin:10px auto;
+}
+
+.container-margin{
+	margin-top:13%;
+}
+
+.more{
+	text-decoration:none;
+	border-radius: 5px;
+	background-color: orange;
+	height: 35px;
+}
+
+.more a{
+	display: inline-block;
+	text-decoration:none;
+	padding:0 15px;
+	margin-top: 9px;
+}
+
+.flex-50{
+	width: 50%;
+}
+
+.flex-33{
+	width: 33.33333333%;
+}
+
+.flex-66{
+	width: 66.66666666%;
+}
+
+.link{
+	text-decoration:none;
+}
+
+.red{
+	color:#FF6640;
+}
+
+.flex-1{
+	flex-grow: 2;
+}
+
+.margin-vertical{
+	margin: 50px auto;
+}
+
+.padding-intro{
+	padding-right: 40px;
+}
+
+.arrow{
+	font-size: 20px;
+	text-align:center;
+	display: inline-block;
+}
+
+.arrow-bg{
+	background-color: grey;
+	color: white;
+	border-radius: 20px;
+	height: 30px;
+	width: 30px;
+	margin:0 auto;
+}
+
+.margin-right-arrow{
+	margin-left: -30px;
+}
+
+.affiliate-margin{
+	margin-left: 50px; 
+}
+
+.affiliate-image{
+	height: 80%;
+	width: auto;
+}
+
+.privacy{
+	margin-left: -50px;
+	margin-top: 100px;
+}
+
+.privacy-bg{
+	background: url('../images/bg-default.jpeg');
+	background-size: cover;
+	width: 80%;
+	height: 600px;
+}
+
+.flex-end{
+	align-self: flex-end;
+	width: 75%;
+	background-color: white;
+}
+
+.content-privacy{
+	margin: 100px 60px;
+}
+
+.immigration{
+	width: 100%;
+	margin-top: 100px;
+	background-color: #FF6640;
+	height: 100vh;
+}
+
+.immigration-text{
+	margin-top: 50px;
+	width: 60%;
+}
+
+.immigration-margin-top{
+	padding-top: 50px;
+}
+
+.middle{
+  	align-items: center;
+  	padding:10px;
+}
+
+.margin-left-15{
+	margin-left: 15px;
+}
+
+.img-immigration{
+	height: 45px;
+	width: 45px;
+}
+
+.immigration-icon {
+	margin:5px;
+	height: 30px;
+	width: 30px;
+}
+
+.border{
+	border:1px solid;
+	border-radius: 3px;
+}
+
+.border-bottom{
+	border-bottom: 1px solid;
+}
+
+.img-immigration-right{
+	margin-right: -49px;
+	margin-top: -40px;
+	height:80%;
+	width: 112%;
+}
+
+.full-bg{
+	background:url('../images/bg-home.jpg'), linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+	background-blend-mode: overlay;
+	background-size: cover; 
+  	height: auto;
+  	padding-bottom: 100px;
+}
+
+.full-bg  .container{
+	padding-top:50px;
+}
+
+.button-full-bg{
+	margin-top: 50px;
+	border:1px solid;
+	border-radius: 3px;
+	width: 150px;
+	background-color: orange;
+	border-color: orange;
+}
+
+.text-black{
+	color: black;
+}
+
+.report{
+	background-color:rgba(241, 243, 245, 0.9);
+	height: auto;
+}
+
+.report .container{
+	padding:100px 0;
+}
+
+.report-header{
+	width: 50%;
+	margin:0 auto;
+}
+.report-header h1{
+	margin-top:0px;
+}
+
+.report-body{
+	width: 65%;
+	margin:0 auto;
+}
+
+.report-box{
+	margin:20px;
+	width: 50%;
+	box-shadow: 0 0 40px 5px rgba(0, 0, 0, .3);
+}
+
+.report-content{
+	margin:25px;
+}
+
+.report-btn{
+	background-color: orange;
+	width: 100px;
+	border-radius: 2px;
+}
+
+.report-link{
+	margin:5px 0;
+}
+
+.footer-head{
+	width: 33.33333333333%;
+	justify-content: center;
+	vertical-align: center;
+}
+
+.footer{
+	margin-top: 50px;
+}
+
+.footer-head h3{
+	margin-top: 0;
+}
+
+.footer-logo{
+	margin: 0 auto;
+}
+
+.footer-people{
+	margin-right: 15px;
+}
+
+.footer-people img{
+	width: 50px;
+	height: 50px;
+}
+
+.footer-social-media{
+	margin-right: 15px;
+}
+
+.footer-link{
+	margin:0 10px;
+}
+
+.right-link{
+	margin: 0 auto;
+}
+
+.footer-bottom{
+	margin-bottom: 20px;
+}
+
+#mobile-btn{
+	display: none;
+}
+
+/*Responsive @media screen*/
+
+@media screen and (max-width: 1200px) {
+	#member-twelve,#member-eleven,#member-ten{
+		display: none !important;
+	}
+
+	.affiliate-image{
+		height: 70%;
+		width: auto;
+	}
+
+	.privacy{
+		margin-top: 100px;
+		margin-right: -20px;
+	}
+
+	.privacy-bg{		
+		width: 90%;
+		height: 600px;
+	}
+
+	.content-privacy h1{
+		font-size: 1.8em;
+	}
+
+	.content-privacy p{
+		font-size: 14px;
+	}
+
+	.immigration{
+		height: auto;
+	}
+
+	.immigration .flex-66{
+		margin-bottom:20px;
+	}
+}
+
+@media screen and (max-width: 945px) {
+	ul > li ,ul .button{
+		display: none;
+	}
+	
+	#mobile-btn{
+		display: flex;
+	}
+
+	.flex-right div{
+		width: 100%;
+		height: 3px;
+		background: white;
+		margin: 4px auto;
+		padding: 0px 5px;
+		border: 1px solid;
+	}
+
+	#member-twelve,#member-eleven,#member-ten{
+		display: none !important;
+	}
+
+	.margin-right-arrow{
+		margin-left: 1px;
+	}
+
+	.affiliate-margin{
+		margin-left: 25px;
+	}
+
+	.affiliate-image{
+		height: 60%;
+		width: auto;
+	}
+
+	.privacy-bg{		
+		width: 100%;
+		height: 600px;
+	}
+
+	.content-privacy{
+		margin: 90px 50px;
+	}
+
+	.content-privacy h1{
+		font-size: 1.5em;
+	}
+
+	#privacy-image div{
+		margin:0 5px; 
+	}
+
+	#immigration .flex-33{
+		display: none;
+	}
+
+	#immigration .flex-66{
+		width:100%;
+	}
+
+	#immigration .immigration-text{
+		width:100%;
+	}
+
+	#footer .social-media{
+		width:25%;
+	}
+
+	#footer .full-link{
+		width:50%;
+	}
+
+	#footer .last-link{
+		width:25%;
+	}
+}
+
+@media screen and (min-width: 500px) and (max-width: 850px){
+	#who-we-are-container{
+		display: flex;
+	  	flex-direction: column;
+	  	height: auto;
+	}
+
+	#who-we-are-container .flex-50{
+		width: 100%;
+		margin:10px 0px;
+	}
+	
+	#member-twelve,#member-eleven,#member-ten,#member-nine,#member-eight,#member-seven,#member-six,#member-five{
+		display: none !important;
+	}
+
+	.affiliate-margin{
+		margin-left: 8px;
+	}
+
+	.affiliate-image{
+		height: 30%;
+		width: auto;
+	}
+
+	.privacy{
+		margin-top: 90px;
+		margin-right: -20px;
+	}
+
+	.content-privacy{
+		margin: 70px 40px;
+	}
+	
+	#privacy-image{
+		width: 115%;
+	}
+
+	#privacy-image div{
+		margin:0 15px; 
+	}
+	
+	#national-immigrant .flex-container,#report .flex-container,#footer .flex-container{
+		display: flex;
+  		flex-direction: column;
+  		height: auto;
+	}
+
+	#national-immigrant .padding-intro{
+		margin:15px 0;
+	}
+
+	#national-immigrant h2,#footer .flex-container{
+		text-align: center;
+	}
+	
+	#report .flex-container,#footer .flex-container{
+		justify-content: center;
+		align-items: center;
+	}
+
+	#report .report-box{
+		width: 70%;
+	}
+	
+	#footer .our-team{
+		flex-direction: inherit;
+	}
+
+	#footer .footer-head{
+		margin:15px 0;
+		width: 50%;
+	}
+
+	#footer .last-footer{
+		flex-direction: inherit;
+	}
+	
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px){
+	#who-we-are-container{
+		display: flex;
+	  	flex-direction: column;
+	  	height: auto;
+	  	width: 100%;
+	}
+
+	#who-we-are-container .flex-50{
+		width: 100%;
+		margin:10px 0px;
+	}
+	
+	#member-twelve,#member-eleven,#member-ten,#member-nine,#member-eight,#member-seven,#member-six,#member-five,#member-four{
+		display: none !important;
+	}
+
+	.affiliate-margin{
+		margin-left: 8px;
+	}
+
+	.affiliate-image{
+		height: 30%;
+		width: auto;
+	}
+
+	.privacy{
+		margin-top: 90px;
+		margin-right: -20px;
+		margin-left: 0;
+	}
+
+	.content-privacy{
+		margin: 70px 40px;
+	}
+	
+	#privacy-image{
+		width: 100%;
+		display: flex;
+  		flex-direction: column;
+  		height: auto;
+  		text-align: center; 
+	}
+	
+	#privacy-image .flex-1{
+		width: 100%;
+	}
+	
+	#national-immigrant .flex-container,#report .flex-container,#footer .flex-container{
+		display: flex;
+  		flex-direction: column;
+  		height: auto;
+	}
+
+	#national-immigrant .padding-intro{
+		margin:15px 0;
+	}
+
+	#national-immigrant h2,#footer .flex-container{
+		text-align: center;
+	}
+	
+	#report .flex-container,#footer .flex-container{
+		justify-content: center;
+		align-items: center;
+	}
+
+	#report .report-header{
+		width: 100%;
+	}
+
+	#report .report-box{
+		width: 100%;
+	}
+	
+	#footer .our-team{
+		flex-direction: inherit;
+	}
+
+	#footer .footer-head{
+		margin:15px 0;
+		width: 100%;
+	}
+
+	#footer .last-footer{
+		flex-direction: inherit;
+	}
+
+	#footer .footer-link{
+		margin:0 5px;
+	}
+	
+}
